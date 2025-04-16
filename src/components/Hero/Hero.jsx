@@ -41,7 +41,7 @@ const Hero = () => {
           width={104}
           height={104}
         >
-          <use href="/public/sprite.svg#icon-star"></use>
+          <use href="/sprite.svg#icon-star"></use>
         </motion.svg>
         <motion.svg
           initial={{ opacity: 0, scale: 0, rotate: -360 }}
@@ -69,7 +69,7 @@ const Hero = () => {
           width={56}
           height={56}
         >
-          <use href="/public/sprite.svg#icon-star"></use>
+          <use href="/sprite.svg#icon-star"></use>
         </motion.svg>
       </div>
     </section>
