@@ -1,0 +1,26 @@
+.buttonShopNow {
+  padding: 16px 54px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+
+  color: #fff;
+
+  border-radius: 62px;
+  width: 210px;
+  height: 52px;
+  background-color: #000;
+  outline: none;
+
+  margin-bottom: 48px;
+  position: relative;
+}
+
+.buttonStarFirst {
+  fill: #fff;
+}
+
+.buttonShopNow:hover {
+  transform: scale(1.2);
+}

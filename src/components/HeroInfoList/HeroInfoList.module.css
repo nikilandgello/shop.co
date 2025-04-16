@@ -1,0 +1,49 @@
+.infoGroup {
+  display: flex;
+  width: 596px;
+  min-height: 74px;
+  gap: 64px;
+}
+
+.infoItem:nth-child(2) {
+  position: relative;
+}
+
+.infoItem:nth-child(2)::after {
+  content: '';
+  position: absolute;
+  left: -32px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1px;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.infoItem:nth-child(2)::before {
+  content: '';
+  position: absolute;
+  right: -32px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1px;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.infoNumber {
+  font-family: var(--second-family);
+  letter-spacing: 1px;
+  font-weight: 700;
+  font-size: 40px;
+  color: #000;
+}
+
+.infoDescription {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: rgba(0, 0, 0, 0.5);
+  letter-spacing: 0.2px;
+}

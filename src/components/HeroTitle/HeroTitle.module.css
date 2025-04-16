@@ -1,0 +1,8 @@
+.heroTitle {
+  max-width: 577px;
+  font-family: var(--second-family);
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 100%;
+  color: #000;
+}

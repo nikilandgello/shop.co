@@ -1,0 +1,34 @@
+.headerSection {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url('/Rectangle.jpg');
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .headerSection {
+    background-image: url('/Rectangle@2x.jpg');
+  }
+}
+
+.headerContainer {
+  padding-top: 103px;
+  padding-bottom: 116px;
+  position: relative;
+}
+
+.firstStar {
+  position: absolute;
+  top: 86px;
+  right: 81px;
+}
+
+.secondStar {
+  position: absolute;
+  top: 297px;
+  right: 637px;
+}

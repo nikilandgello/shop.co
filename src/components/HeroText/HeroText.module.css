@@ -1,0 +1,10 @@
+.heroText {
+  max-width: 545px;
+  margin: 32px 0;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: rgba(0, 0, 0, 0.6);
+  letter-spacing: 0.5px;
+}
